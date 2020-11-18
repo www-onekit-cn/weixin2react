@@ -1,4 +1,4 @@
-import React from "react";
+import React from "../weixin2react/button/react";
 import ReactDOM from "react-dom";
 import "./index.less";
 import { Button, Card, Input } from "../lib/weixin2react";

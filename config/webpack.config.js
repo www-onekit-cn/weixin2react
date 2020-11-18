@@ -5,7 +5,7 @@ const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const WebpackBar = require("webpackbar");
 
 module.exports = {
-  entry: path.join(__dirname, "../components/index.js"),
+  entry: path.join(__dirname, "../weixin2react/index.js"),
   output: {
     path: path.resolve(__dirname, "../lib"),
     filename: "weixin2react.js",
